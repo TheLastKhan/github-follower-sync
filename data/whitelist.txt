@@ -1,0 +1,19 @@
+# GitHub Follower Sync - Whitelist
+# Users in this list will NEVER be unfollowed, even if they unfollow you.
+# Add one username per line (case-insensitive).
+# Lines starting with # are comments.
+#
+# Example:
+# torvalds
+# github
+# microsoft
+
+# Whitelist - These users will never be unfollowed
+canbula
+VolkanAltintas
+cinsdikici
+huggingface
+emredalka
+Gcanbay
+deepseek-ai
+meta-llama

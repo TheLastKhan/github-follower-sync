@@ -1,0 +1,11 @@
+# GitHub Follower Sync - Blacklist
+# Users in this list will NEVER be followed, even if they follow you.
+# Add one username per line (case-insensitive).
+# Lines starting with # are comments.
+#
+# Example:
+# spammer123
+# bot-account
+
+# Blacklist - These users will never be followed
+sphinxzerd
