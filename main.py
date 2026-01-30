@@ -282,8 +282,10 @@ def sync_followers():
     
     save_history(history)
     
-    # Send Telegram notification
-    stats = {"followers": len(followers), "following": len(following)}
+    # Send Telegram notification with UPDATED stats (after actions)
+    final_followers = len(followers)  # Followers count doesn't change from our actions
+    final_following = len(following) + len(followed) - len(unfollowed)  # Adjusted count
+    stats = {"followers": final_followers, "following": final_following}
     
     if followed or unfollowed:
         message = format_telegram_report(followed, unfollowed, stats)
